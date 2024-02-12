@@ -1,3 +1,30 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/* custom proprerties */
+:root{
+    --colore-primario: #1C72E9; 
+    --colore-secondario: #051E34;
+    --colore-classi: #F16451; 
+    --colore-topbar: #FFFFFF;
+    --colore-sfondo-titoli: #F7F7F7;
+    --colore-searchbar: #E5E5E5;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+/* Navbar */
+.navbar{
+   height: 140px; 
+   background-color: var(--colore-topbar);
+   background-color: lightcoral;
+}
+
+/* Jumbotron */
+
+/* Main */
+
+/* Barra laterale sinistra */
