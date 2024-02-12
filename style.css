@@ -63,8 +63,11 @@ body{
         width: 135px;
     }
 
-    .home-text{
-        /* display: block; */
+    .home-text,
+    .stats-text,
+    .signals-text,
+    .setting-text{
+        display: block !important;
     }
 
     .mainpage-dx{
