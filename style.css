@@ -49,9 +49,53 @@ body{
     color: var(--colore-classi);
 }
 
-/* Top-main */
+.searchbar input:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: var(--colore-searchbar);
+}
 
-/* Main */
+.searchbar input{
+    border: none;
+    background-color: var(--colore-searchbar);
+}
+
+
+/* Top-mainpage*/
+.top-mainpage{
+    background-color: var(--colore-primario);   
+}
+
+.nuovo-studente{
+    height: 85px;
+}
+
+.nuovo-studente-text{
+    margin-right: 15px;
+    /* height: 60px; */
+}
+
+.nuovo-studente-icon{
+    /* height: 60px; */
+}
+
+.nuovo-studente-icon .fa-solid{
+    font-size: 1rem;
+}
+
+.studenti-online{
+    height: 85px;
+}
+
+.studenti-online-number{
+    font-size: 2rem;
+}
+
+.piani-boolean{
+    height: 85px;
+}
+
+/* Mainpage */
 .mainpage{
     height: calc(100vh - 70px);
 }
@@ -71,10 +115,7 @@ body{
     width: calc(100% - 65px);
 }
 
-.top-mainpage{
-    background-color: var(--colore-primario);
-    
-}
+
 
 /* Barra laterale sinistra */
 

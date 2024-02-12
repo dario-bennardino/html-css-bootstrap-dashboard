@@ -19,11 +19,11 @@
 <body>
     <header>
         <!-- Navbar -->
-        <section class="navbar debug">
-            <div class="container-fluid h-100 justify-content-center debug ">
-                <div class="row w-100 align-items-center debug">
+        <section class="navbar">
+            <div class="container-fluid h-100 justify-content-center">
+                <div class="row w-100 align-items-center">
                     <div class="col-2">
-                        <div class="logo-mobile debug">
+                        <div class="logo-mobile">
                             <img src="img/mobile-logo.png" alt="">
                         </div>
                         <div class="logo-desktop d-none ">
@@ -31,8 +31,13 @@
                         </div>
 
                     </div>
-                    <div class="col-9 col-lg-8 debug">Search</div>
-                    <div class="col-1 col-lg-2 debug">
+                    <div class="col-9 col-lg-8">
+                        <div class="searchbar">
+                            <!-- <input type="text" placeholder="Prova a cercare Lezioni di Laravel"> -->
+                            <input class="form-control me-2" type="search" placeholder="Prova a cercare Lezioni di Laravel">
+                        </div>
+                    </div>
+                    <div class="col-1 col-lg-2">
                         <div class="icons-navbar d-flex">
                             <div class="icon-navbar-sx d-none">
                                 <i class="fa-solid fa-list"></i>
@@ -43,7 +48,6 @@
                             <div class="icon-navbar-dx d-flex justify-content-end  align-items-center">
                                 <i class="fa-solid fa-bell"></i>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -87,10 +91,44 @@
             <section class="mainpage-dx debug">
                 <section class="top-mainpage">
                     <div class="container-fluid debug">
-                        <div class="row">
-                            <div class="col-12 col-md-4 order-md-3 col-lg-3 debug">nuovo studente</div>
-                            <div class="col-12 col-md-4 order-md-1 col-lg-6 debug">Boolean</div>
-                            <div class="col-12 col-md-4 order-md-2 col-lg-3 debug">Studenti online</div>
+                        <div class="row text-white">
+                            <div class="col-12 col-md-4 order-md-3 col-lg-3 debug">
+                                <div class="nuovo-studente d-flex align-items-center">
+                                    <div class="nuovo-studente-text">
+                                        Nuovo studente
+                                    </div>
+                                    <div class="nuovo-studente-icon">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+
+                                    
+                                </div> 
+                            </div>
+
+                            <div class="col-12 col-md-4 order-md-1 col-lg-6 debug">
+                                <div class="piani-boolean d-flex flex-column justify-content-center ">
+                                    <div class="piani-boolean-title d-flex ">
+                                        <div>Boolean</div>
+                                        <div>Piano blaze</div>
+                                    </div>
+                                    <div class="piani-boolean-app d-flex ">
+                                        <div>3 app</div>
+                                        <div>+</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 order-md-2 col-lg-3 debug">
+                                <div class="studenti-online d-flex justify-content-center  flex-column">
+                                    <div class="studenti-online-title">
+                                        <div>Studenti online negli ultimi 30 minuti</div>
+                                    </div>
+                                    <div class="studenti-online-number">
+                                        <div>125</div> 
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
                         </div>  
                     </div>
                 </section>  
