@@ -18,8 +18,7 @@ body{
 
 /* Navbar */
 .navbar{
-   height: 140px; 
-   background-color: var(--colore-topbar);
+   height: 70px; 
    background-color: var(--colore-topbar);
 }
 
@@ -27,7 +26,7 @@ body{
 
 /* Main */
 .mainpage{
-    height: calc(100vh - 140px);
+    height: calc(100vh - 70px);
 }
 
 .mainpage-sx{
@@ -50,18 +49,33 @@ body{
     
 }
 
-
-
 /* Barra laterale sinistra */
 
 
 /* Soluzione responsive */
 
 /* versione tablet */
+@media screen and (min-width: 768px){
+    .navbar{
+        height: 140px; 
+     }
+
+     .mainpage{
+        height: calc(100vh - 140px);
+    }
+}
 
 
 /* versione desktop */
 @media screen and (min-width: 992px){
+    .navbar{
+        height: 70px; 
+     }
+
+     .mainpage{
+        height: calc(100vh - 70px);
+    }
+
     .mainpage-sx{
         width: 135px;
     }
