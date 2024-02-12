@@ -26,5 +26,18 @@ body{
 /* Jumbotron */
 
 /* Main */
+.mainpage{
+    height: calc(100vh - 140px);
+}
+
+.mainpage-sx{
+    height: 100%;
+    width: 135px;
+}
+
+.mainpage-dx{
+    height: 100%;
+    width: calc(100% - 135px);
+}
 
 /* Barra laterale sinistra */
