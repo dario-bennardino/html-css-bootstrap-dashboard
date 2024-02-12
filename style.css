@@ -20,7 +20,7 @@ body{
 .navbar{
    height: 140px; 
    background-color: var(--colore-topbar);
-   background-color: lightcoral;
+   background-color: var(--colore-topbar);
 }
 
 /* Jumbotron */
@@ -32,12 +32,20 @@ body{
 
 .mainpage-sx{
     height: 100%;
-    width: 135px;
+    width: 65px;
+    background-color: var(--colore-secondario);
+}
+
+.mainpage-sx i{
+    padding-right: 5px;
 }
 
 .mainpage-dx{
     height: 100%;
-    width: calc(100% - 135px);
+    width: calc(100% - 65px);
 }
 
 /* Barra laterale sinistra */
+
+
+/* media query */
