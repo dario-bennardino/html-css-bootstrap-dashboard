@@ -23,7 +23,7 @@ body{
    background-color: var(--colore-topbar);
 }
 
-/* Jumbotron */
+/* Top-main */
 
 /* Main */
 .mainpage{
@@ -45,7 +45,30 @@ body{
     width: calc(100% - 65px);
 }
 
+.top-mainpage{
+    background-color: var(--colore-primario);
+}
+
 /* Barra laterale sinistra */
 
 
-/* media query */
+/* Soluzione responsive */
+
+/* versione tablet */
+
+
+/* versione desktop */
+@media screen and (min-width: 992px){
+    .mainpage-sx{
+        width: 135px;
+    }
+
+    .home-text{
+        /* display: block; */
+    }
+
+    .mainpage-dx{
+        width: calc(100% - 135px);
+    }
+
+}
