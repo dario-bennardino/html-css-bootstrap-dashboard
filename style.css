@@ -10,6 +10,7 @@ body{
     --colore-topbar: #FFFFFF;
     --colore-sfondo-titoli: #F7F7F7;
     --colore-searchbar: #E5E5E5;
+    --colore-icone-topbar: #5A5858;
 }
 
 .debug{
@@ -25,13 +26,27 @@ body{
 .logo-mobile{
     height: 50px;
     width: 50px;
-
 }
 
 .logo-mobile img{
     width: 100%;
-    object-fit: cover;
-   
+    object-fit: cover;  
+}
+
+.icon-navbar-sx{
+    width: 75%;
+}
+
+.icon-navbar-sx .fa-solid{
+    color: var(--colore-icone-topbar);
+}
+
+.icon-navbar-dx{
+    width: 100%;
+}
+
+.icon-navbar-dx .fa-solid{
+    color: var(--colore-classi);
 }
 
 /* Top-main */
@@ -68,25 +83,25 @@ body{
 
 /* versione tablet */
 @media screen and (min-width: 768px){
-    /* .navbar{
-        height: 140px; 
-     }
-
-     .mainpage{
-        height: calc(100vh - 140px);
-    } */
+  
 }
 
 
 /* versione desktop */
 @media screen and (min-width: 992px){
-    /* .navbar{
-        height: 70px; 
-     }
+    
+    /* navbar */
+    .icon-navbar-dx{
+        width: 25%;
+    }
 
-     .mainpage{
-        height: calc(100vh - 70px);
-    } */
+    .icon-navbar-sx{
+        display: block !important;  
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+
+    }
 
     .logo-mobile{
         display: none !important;
