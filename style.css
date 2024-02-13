@@ -11,6 +11,7 @@ body{
     --colore-sfondo-titoli: #F7F7F7;
     --colore-searchbar: #E5E5E5;
     --colore-icone-topbar: #5A5858;
+    --colore-sfondo-navbar: #F8F9FA;
 }
 
 .debug{
@@ -20,6 +21,7 @@ body{
 /* Navbar */
 .navbar{
     height: 70px;
+    background-color: var(--colore-sfondo-navbar);
 }
 
 /* Logo */
@@ -33,6 +35,10 @@ body{
     width: 50px;
 }
 
+.logo-desktop{
+    display: none;
+}
+
 .logo-navbar img{
     width: 100%;
     object-fit: cover;
@@ -41,6 +47,20 @@ body{
 /* Icons navbar */
 .icons-navbar{
     width: 50px;
+    justify-content: center;
+}
+
+.icon-navbar-sx{
+    display: none;
+}
+
+.icon-navbar-dx .fa-solid{
+    color: var(--colore-classi);
+}
+
+.icon-navbar-dx{
+    display: flex;
+    /* justify-content: center; */
 }
 
 /* Searchbar */
@@ -59,25 +79,11 @@ body{
     background-color: var(--colore-searchbar);
 } 
 
+/* .searchbar::before {
+    content: '\f002';
+    font-family: 'Font Awesome 6';
+} */
 
-/* .navbar{
-   height: 70px; 
-   background-color: var(--colore-topbar);
-}
-
-.logo-mobile{
-    height: 50px;
-    width: 50px;
-}
-
-.logo-mobile img{
-    width: 100%;
-    object-fit: cover;  
-}
-
-.icon-navbar-sx{
-    width: 75%;
-}
 
 .icon-navbar-sx .fa-solid{
     color: var(--colore-icone-topbar);
@@ -199,24 +205,19 @@ body{
     }
 
     .logo-desktop{
-        display: block !important;
+        display: block;
     }
 
     /* navbar */
-    /* .icon-navbar-dx{
-        width: 25%;
+    .icon-navbar-sx{
+        display: block;
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
     }
 
-    .icon-navbar-sx{
-        display: block !important;  
-        display: flex !important;
-        justify-content: space-between !important;
-        align-items: center !important;
-
-    } */
-
-    /* .logo-mobile{
-        display: none !important;
+    .icon-navbar-dx{
+        width: 25%;
     }
 
     .logo-desktop{
