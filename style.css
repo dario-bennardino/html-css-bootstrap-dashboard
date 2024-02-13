@@ -78,53 +78,6 @@ body{
     background-color: var(--colore-searchbar);
 } 
 
-
-/* .navbar{
-   height: 70px; 
-   background-color: var(--colore-topbar);
-}
-
-.logo-mobile{
-    height: 50px;
-    width: 50px;
-}
-
-.logo-mobile img{
-    width: 100%;
-    object-fit: cover;  
-}
-
-.icon-navbar-sx{
-    width: 75%;
-}
-
-.icon-navbar-sx .fa-solid{
-    color: var(--colore-icone-topbar);
-}
-
-.icon-navbar-dx{
-    width: 100%;
-}
-
-.icon-navbar-dx .fa-solid{
-    color: var(--colore-classi);
-}
-
-.searchbar input:focus {
-    outline: none;
-    box-shadow: none;
-    background-color: var(--colore-searchbar);
-}
-
-.searchbar input{
-    border: none;
-    background-color: var(--colore-searchbar);
-} */
-
-/* NUOVA NAVBAR */
-
-
-
 /* Top-mainpage*/
 .top-mainpage{
     background-color: var(--colore-primario);   
@@ -233,26 +186,7 @@ body{
         align-items: center;
     }
 
-    /* navbar */
-    /* .icon-navbar-dx{
-        width: 25%;
-    }
 
-    .icon-navbar-sx{
-        display: block !important;  
-        display: flex !important;
-        justify-content: space-between !important;
-        align-items: center !important;
-
-    } */
-
-    /* .logo-mobile{
-        display: none !important;
-    }
-
-    .logo-desktop{
-        display: block !important;
-    } */
 
     .mainpage-sx{
         width: 135px;
