@@ -24,7 +24,7 @@ body{
 
 /* Logo */
 .logo-navbar{
-    width: 150px;
+    width: 50px;
     height: 100%;
 }
 
@@ -40,7 +40,7 @@ body{
 
 /* Icons navbar */
 .icons-navbar{
-    width: 150px;
+    width: 50px;
 }
 
 /* Searchbar */
@@ -186,7 +186,22 @@ body{
 
 /* versione desktop */
 @media screen and (min-width: 992px){
-    
+    .logo-navbar{
+        width: 150px;
+    }
+
+    .icons-navbar{
+        width: 150px;
+    }
+
+    .logo-mobile{
+        display: none;
+    }
+
+    .logo-desktop{
+        display: block !important;
+    }
+
     /* navbar */
     /* .icon-navbar-dx{
         width: 25%;
