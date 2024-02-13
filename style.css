@@ -43,6 +43,25 @@ body{
     width: 50px;
 }
 
+.icon-navbar-dx .fa-solid{
+    color: var(--colore-classi);
+}
+
+.icon-navbar-sx{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+}
+
+.icon-navbar-dx{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
 /* Searchbar */
 .searchbar{
     flex-grow: 1;
@@ -200,6 +219,18 @@ body{
 
     .logo-desktop{
         display: block !important;
+    }
+
+    .icon-navbar-dx{
+        width: 25%;  
+    }
+
+    .icon-navbar-sx{
+        width: 75%; 
+        display: block; 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     /* navbar */
