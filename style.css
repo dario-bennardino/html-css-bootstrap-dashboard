@@ -26,7 +26,7 @@ body{
 
 /* Logo */
 .logo-navbar{
-    width: 150px;
+    width: 70px;
     height: 100%;
 }
 
@@ -129,6 +129,13 @@ body{
     background-color: var(--colore-secondario);
 }
 
+.home-text,
+    .stats-text,
+    .signals-text,
+    .setting-text{
+        display: none;
+    }
+
 .mainpage-sx i{
     padding-right: 5px;
 }
@@ -137,10 +144,6 @@ body{
     height: 100%;
     width: calc(100% - 65px);
     overflow: scroll;
-}
-
-.todo .card{
-    width: 100%;
 }
 
 /* statistics */
@@ -181,7 +184,7 @@ body{
     }
 
     .logo-desktop{
-        display: block !important;
+        display: block;
     }
 
     .icon-navbar-dx{
@@ -206,7 +209,7 @@ body{
     .stats-text,
     .signals-text,
     .setting-text{
-        display: block !important;
+        display: block;
     }
 
     .mainpage-dx{
