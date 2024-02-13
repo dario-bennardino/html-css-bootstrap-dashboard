@@ -118,6 +118,10 @@ body{
     height: 85px;
 }
 
+.brand{
+    font-size: 1.5rem;
+}
+
 /* Mainpage */
 .mainpage{
     height: calc(100vh - 70px);
