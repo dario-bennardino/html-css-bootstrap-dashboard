@@ -156,6 +156,16 @@ body{
     object-fit: cover;
 }
 
+/* tabella */
+.logo-tabella{
+    width: 40px;
+    height: 40px;
+}
+
+.logo-tabella img{
+    width: 100%;
+    object-fit: cover;
+}
 
 
 /* Barra laterale sinistra */
