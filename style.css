@@ -133,6 +133,10 @@ body{
     overflow: scroll;
 }
 
+.todo .card{
+    width: 100%;
+}
+
 /* statistics */
 .statistics-img{
     width: 100%;
