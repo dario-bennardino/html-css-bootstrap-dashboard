@@ -95,11 +95,8 @@ body{
 
 .nuovo-studente-text{
     margin-right: 15px;
-    /* height: 60px; */
-}
-
-.nuovo-studente-icon{
-    /* height: 60px; */
+    font-size: 0.8rem;
+    
 }
 
 .nuovo-studente-icon .fa-solid{
@@ -111,8 +108,14 @@ body{
 }
 
 .studenti-online-number{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
+
+.studenti-online-title{
+    font-size: 0.8rem;
+}
+
+/* piani boolean */
 
 .piani-boolean{
     height: 85px;
@@ -120,6 +123,10 @@ body{
 
 .brand{
     font-size: 1.5rem;
+}
+
+.piani-boolean-app-dx{
+    display: none;
 }
 
 /* Mainpage */
@@ -211,6 +218,14 @@ body{
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .piani-boolean-app-dx{
+        display: block;
+    }
+
+    .piani-boolean-app-bottone{
+        display: none;
     }
 
     .mainpage-sx{
