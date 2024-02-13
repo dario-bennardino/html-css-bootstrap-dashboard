@@ -46,25 +46,7 @@ body{
 
 /* Icons navbar */
 .icons-navbar{
-<<<<<<< HEAD
     width: 50px;
-    justify-content: center;
-}
-
-.icon-navbar-sx{
-    display: none;
-}
-
-.icon-navbar-dx .fa-solid{
-    color: var(--colore-classi);
-}
-
-.icon-navbar-dx{
-    display: flex;
-    /* justify-content: center; */
-=======
-    width: 150px;
->>>>>>> parent of 3726621 ([add] media query navbar)
 }
 
 /* Searchbar */
@@ -196,7 +178,6 @@ body{
 
 /* versione desktop */
 @media screen and (min-width: 992px){
-<<<<<<< HEAD
     .logo-navbar{
         width: 150px;
     }
@@ -210,12 +191,9 @@ body{
     }
 
     .logo-desktop{
-        display: block;
+        display: block !important;
     }
 
-=======
-    
->>>>>>> parent of 3726621 ([add] media query navbar)
     /* navbar */
     .icon-navbar-sx{
         display: block;
