@@ -26,7 +26,7 @@ body{
 
 /* Logo */
 .logo-navbar{
-    width: 50px;
+    width: 150px;
     height: 100%;
 }
 
@@ -46,6 +46,7 @@ body{
 
 /* Icons navbar */
 .icons-navbar{
+<<<<<<< HEAD
     width: 50px;
     justify-content: center;
 }
@@ -61,6 +62,9 @@ body{
 .icon-navbar-dx{
     display: flex;
     /* justify-content: center; */
+=======
+    width: 150px;
+>>>>>>> parent of 3726621 ([add] media query navbar)
 }
 
 /* Searchbar */
@@ -192,6 +196,7 @@ body{
 
 /* versione desktop */
 @media screen and (min-width: 992px){
+<<<<<<< HEAD
     .logo-navbar{
         width: 150px;
     }
@@ -208,6 +213,9 @@ body{
         display: block;
     }
 
+=======
+    
+>>>>>>> parent of 3726621 ([add] media query navbar)
     /* navbar */
     .icon-navbar-sx{
         display: block;
