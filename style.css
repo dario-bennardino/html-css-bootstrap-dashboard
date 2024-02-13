@@ -19,6 +19,48 @@ body{
 
 /* Navbar */
 .navbar{
+    height: 70px;
+}
+
+/* Logo */
+.logo-navbar{
+    width: 150px;
+    height: 100%;
+}
+
+.logo-mobile{
+    height: 50px;
+    width: 50px;
+}
+
+.logo-navbar img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Icons navbar */
+.icons-navbar{
+    width: 150px;
+}
+
+/* Searchbar */
+.searchbar{
+    flex-grow: 1;
+}
+
+.searchbar input:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: var(--colore-searchbar);
+}
+
+.searchbar input{
+    border: none;
+    background-color: var(--colore-searchbar);
+} 
+
+
+/* .navbar{
    height: 70px; 
    background-color: var(--colore-topbar);
 }
@@ -58,7 +100,10 @@ body{
 .searchbar input{
     border: none;
     background-color: var(--colore-searchbar);
-}
+} */
+
+/* NUOVA NAVBAR */
+
 
 
 /* Top-mainpage*/
@@ -143,7 +188,7 @@ body{
 @media screen and (min-width: 992px){
     
     /* navbar */
-    .icon-navbar-dx{
+    /* .icon-navbar-dx{
         width: 25%;
     }
 
@@ -153,15 +198,15 @@ body{
         justify-content: space-between !important;
         align-items: center !important;
 
-    }
+    } */
 
-    .logo-mobile{
+    /* .logo-mobile{
         display: none !important;
     }
 
     .logo-desktop{
         display: block !important;
-    }
+    } */
 
     .mainpage-sx{
         width: 135px;
